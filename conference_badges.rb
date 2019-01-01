@@ -23,6 +23,6 @@ end
 
 def printer(attendees)
   batch_badge_creator.each do |sub_array|
-    puts 
+    puts sub_array
   assign_rooms
 end
